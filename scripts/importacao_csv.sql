@@ -39,7 +39,7 @@ CREATE TABLE EMPRESAS
 --------------
 BULK INSERT EMPRESAS
 -- Especifica o caminho completo do arquivo CSV a ser importado.
-FROM 'D:\PYTHON\IMPORTACAO\DADOS_EMPRESAS.CSV'
+FROM '[especificar_diretório]\DADOS_EMPRESAS.CSV'
 WITH
   ( 
     -- Parâmetros
