@@ -141,7 +141,7 @@ WITH
 - `FIELDTERMINATOR = ','`: Especifica o delimitador de campo a ser usado, neste caso, uma vírgula.
 - `ROWTERMINATOR = '\n'`: Especifica o terminador de linha a ser usado.
 
-## Visualização dos Dados Importados
+### Visualização dos Dados Importados
 ```SQL
 --------------
 -- 3. Consulte os dados importados
