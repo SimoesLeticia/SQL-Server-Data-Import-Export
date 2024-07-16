@@ -155,7 +155,7 @@ SELECT J.*
 INTO   #TEMP
 FROM   OPENJSON(@JSON) 
 WITH (      
-	 nome              VARCHAR(MAX)
+       nome            VARCHAR(MAX)
      , idade           VARCHAR(MAX)
      , cpf             VARCHAR(MAX)
      , rg              VARCHAR(MAX)
