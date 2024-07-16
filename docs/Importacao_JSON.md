@@ -179,6 +179,8 @@ WITH (
 ### Tratamento de Dados
 O tratamento de dados antes da importação para as tabelas do banco é crucial para garantir que os dados estejam em conformidade com o esquema do banco de dados e para evitar erros durante a inserção, pois as informações no arquivo JSON podem estar em um formato diferente do esperado pelas tabelas do banco.
 
+**Dados de Exemplo:**
+
 | nome             | idade | cpf            | rg           | data_nasc  | sexo      | tipo_sanguineo | altura | peso | email                       | telefone fixo  | celular         | cep       | endereco         | numero | bairro    | cidade      | estado |
 |------------------|-------|----------------|--------------|------------|-----------|----------------|--------|------|-----------------------------|----------------|-----------------|-----------|------------------|--------|-----------|-------------|--------|
 | Diogo Igor Lopes | 57    | 524.665.837-63 | 39.694.244-1 | 20/03/1967 | Masculino | A-             | 1,91   | 67   | diogo_lopes@eyejoy.com.br   | (54) 3767-1094 | (54) 98358-3917 | 99025-420 | Rua Tupinambás   | 838    | Boqueirão | Passo Fundo | RS     |
@@ -277,7 +279,7 @@ SELECT NOME
   FROM #TEMP; 
 ```
 
-Após a inserção na tabela ENTIDADES, realizamos a atualização da tabela temporária com os IDs gerados. Isso viabiliza a referência e a subsequente população das tabelas filhas.
+Após a inserção na tabela `ENTIDADES`, realizamos a atualização da tabela temporária com os IDs gerados. Isso viabiliza a referência e a subsequente população das tabelas filhas.
 ```SQL
 -- Atualize a tabela temporária com o id da tabela ENTIDADES (mãe) para popular corretamente as tabelas detail (filhas)
 IF NOT EXISTS (SELECT 1
