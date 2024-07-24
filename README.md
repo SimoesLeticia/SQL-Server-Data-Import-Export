@@ -18,26 +18,29 @@ Este repositório é organizado em três diretórios principais: **data**, **scr
 
 ### Diretórios e Arquivos
 
-**data** - Este diretório contém os arquivos utilizados nos exemplos de importação de dados. Os arquivos disponíveis são:
-| Arquivo               | Descrição                                                               |
-|:----------------------|:------------------------------------------------------------------------|
-| `dados_empresas.csv`  | Contém dados fictícios de empresas, usado como exemplo para importação de arquivos CSV. |
-| `dados_pessoas.json`  | Contém dados fictícios de pessoas, usado como exemplo para importação de arquivos JSON. |
+- **data** - Este diretório contém os arquivos utilizados nos exemplos de importação de dados. Os arquivos disponíveis são:
 
-**scripts** - Neste diretório estão os scripts SQL que demonstram o processo de importação e exportação de dados. Cada script contém instruções detalhadas e passo a passo de como executar cada processo:
-| Arquivo               | Descrição                                                               |
-|:----------------------|:------------------------------------------------------------------------|
-| `importacao_csv.sql`  | Como importar os dados de um arquivo CSV. |
-| `exportacao_csv.sql`  | Como exportar os dados de uma consulta para um arquivo CSV. |
-| `importacao_json.sql` | Como importar os dados de um arquivo JSON. |
-| `exportacao_json.sql` | Como exportar os dados de uma consulta para um arquivo JSON. |
+  | Arquivos              | Descrição                                                               |
+  |:----------------------|:------------------------------------------------------------------------|
+  | `dados_empresas.csv`  | Contém dados fictícios de empresas, usado como exemplo para importação de arquivos CSV. |
+  | `dados_pessoas.json`  | Contém dados fictícios de pessoas, usado como exemplo para importação de arquivos JSON. |
 
-**docs** - Este diretório contém documentação adicional que explica os processos de importação e exportação:
-| Arquivo               | Descrição                                                               |
-|:----------------------|:------------------------------------------------------------------------|
-| `Importacao_JSON.md`  | Artigo sobre o processo de importação de arquivos JSON. |
-| `Importacao_CSV.md`   | Artigo sobre o processo de importação de arquivos CSV. |
-| `Exportacao_BCP.md`   | Artigo sobre o processo de exportação utilizando a ferramenta BCP. |
+- **scripts** - Neste diretório estão os scripts SQL que demonstram o processo de importação e exportação de dados. Cada script contém instruções detalhadas e passo a passo de como executar cada processo:
+
+  | Arquivos              | Descrição                                                               |
+  |:----------------------|:------------------------------------------------------------------------|
+  | `importacao_csv.sql`  | Como importar os dados de um arquivo CSV. |
+  | `exportacao_csv.sql`  | Como exportar os dados de uma consulta para um arquivo CSV. |
+  | `importacao_json.sql` | Como importar os dados de um arquivo JSON. |
+  | `exportacao_json.sql` | Como exportar os dados de uma consulta para um arquivo JSON. |
+
+- **docs** - Este diretório contém documentação adicional que explica os processos de importação e exportação:
+
+  | Arquivos              | Descrição                                                               |
+  |:----------------------|:------------------------------------------------------------------------|
+  | `Importacao_JSON.md`  | Artigo sobre o processo de importação de arquivos JSON. |
+  | `Importacao_CSV.md`   | Artigo sobre o processo de importação de arquivos CSV. |
+  | `Exportacao_BCP.md`   | Artigo sobre o processo de exportação utilizando a ferramenta BCP. |
 
 ## Contribuições
 Contribuições são sempre bem-vindas! Se você tem sugestões de melhorias, encontrou algum bug ou simplesmente quer dizer "olá 👋🏽", sinta-se à vontade para abrir uma issue ou enviar um pull request.
